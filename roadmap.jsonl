@@ -1,0 +1,5 @@
+{"rank": 1, "id": "CZ-19", "why": "Now first: with the form factor and features accepted, the machines and memory sizes are the last concrete requirement. A few lines, per the sparse-spec model.", "added": "2026-10-21"}
+{"rank": 2, "id": "CZ-2", "why": "Two questions remain (licenses, audience) and the vision page now has three pillars to write up: form factor, bare metal, CoCo plus extras. Bare metal itself is deepened later (CZ-18).", "added": "2026-10-21"}
+{"rank": 3, "id": "CZ-1", "why": "Cheap and unblocks publishing: the repo needs a front page and a layout. The license waits on CZ-2.", "added": "2026-10-21"}
+{"rank": 4, "id": "CZ-3", "why": "The quotable paragraph, written once CZ-6 and CZ-16 say what it summarises.", "added": "2026-10-21"}
+{"rank": 5, "id": "CZ-4", "why": "Turns the definition into a test. Needs CZ-3; its MUST list then sets the scope of CZ-10 and CZ-12.", "added": "2026-10-21"}
