@@ -17,7 +17,7 @@ Tandy fixed some of it in 1986. The rest took forty years.
 | **Settings** | ✕ None to speak of. What it does at power-on is fixed in ROM. | ✕ Still fixed in ROM. | ✓ A text file on the card, for every game or just one, editable on screen. |
 | **Between you and the machine** | ✓ Nothing: switch on and BASIC is there. | ✓ Nothing: switch on and BASIC is there. | ✓ Still nothing. No operating system, only a small menu for disks and settings. Switch on and BASIC is there. |
 | **Size and power** | ✕ A keyboard-sized case with a mains cord, and 40-year-old capacitors inside. | ✕ The same: a keyboard-sized case, a mains cord, and capacitors nearly as old. | ✓ A 65 x 30 mm board, the size of a Raspberry Pi Zero, powered by a phone charger. A printable case shaped like a CoCo 2 is optional. |
-| **What came next** | ✕ Want a CoCo 3? Buy a CoCo 3. | ✕ Nothing. Tandy never made a CoCo 4. | ✓ One board that is a CoCo 2 or a 128 KB CoCo 3, and switches by itself for a game that needs the CoCo 3. The CoCo 2 can have the CoCo 3's palette and timer too. |
+| **What came next** | ✕ Want a CoCo 3? Buy a CoCo 3. | ✕ Nothing. Tandy never made a CoCo 4. | ✓ One board that emulates a CoCo 2 or a 128 KB CoCo 3, and switches by itself for a game that needs the CoCo 3. The CoCo 2 can have the CoCo 3's palette and timer too. |
 
 Bring your own ROMs, from hardware you own.
 

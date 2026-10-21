@@ -1,6 +1,6 @@
 # CoCo Zero
 
-**A Tandy Color Computer on a board the size of a Raspberry Pi Zero.**
+**A Tandy Color Computer emulator on a board the size of a Raspberry Pi Zero.**
 
 <p align="center">
   <img src="docs/images/in-use-angle.jpg" width="460"
@@ -30,7 +30,7 @@ configuration screen that runs nothing else. Switch it on and BASIC is there,
 just as it was in 1983. The CoCo Zero gets as close to that as it can while
 keeping the essence of what it means to operate a CoCo.
 
-**A CoCo, and more.** A CoCo Zero is a CoCo 1, 2 or 3. The CoCo 3 has 128K,
+**A CoCo, and more.** A CoCo Zero emulates a CoCo 1, 2 or 3. The CoCo 3 has 128K,
 and ideally 512K, 2M or more. A CoCo Zero also does things the original
 machines never did: a sharp digital picture and clean sound on an ordinary
 TV, a USB keyboard and gamepad, a microSD card in place of tapes and floppies.
@@ -64,8 +64,8 @@ in a browser).
 ## The reference CoCo Zero
 
 The first CoCo Zero is XRoar running on a
-[Waveshare RP2350-PiZero](https://www.waveshare.com/rp2350-pizero.htm). It is a
-CoCo 2 or a 128K CoCo 3 in one firmware, with a printable case shaped like a
+[Waveshare RP2350-PiZero](https://www.waveshare.com/rp2350-pizero.htm). It
+emulates a CoCo 2 or a 128K CoCo 3 in one firmware, with a printable case shaped like a
 CoCo 2.
 
 <p align="center">
