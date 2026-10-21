@@ -2,6 +2,11 @@
 
 **A Tandy Color Computer on a board the size of a Raspberry Pi Zero.**
 
+<p align="center">
+  <img src="docs/images/in-use-angle.jpg" width="460"
+       alt="The reference CoCo Zero in its printed case, shaped like a CoCo 2, with its mini HDMI cable and two USB-C cables plugged in and a microSD card in its slot">
+</p>
+
 This repository is the CoCo Zero standard. It describes what a CoCo Zero is
 and what qualifies as one. It does not tell you how to build one.
 
@@ -62,6 +67,13 @@ The first CoCo Zero is XRoar running on a
 [Waveshare RP2350-PiZero](https://www.waveshare.com/rp2350-pizero.htm). It is a
 CoCo 2 or a 128K CoCo 3 in one firmware, with a printable case shaped like a
 CoCo 2.
+
+<p align="center">
+  <img src="docs/images/board-wired.jpg" width="380"
+       alt="The bare Waveshare RP2350-PiZero board running, with USB-C power, a USB-C host cable, a mini HDMI adapter and a microSD card">
+  <img src="docs/images/three-quarter-ports.jpg" width="380"
+       alt="The printed case from the connector side: the mini HDMI port, two USB-C ports, and the microSD slot at the end">
+</p>
 
 Source, build instructions and the case:
 [ugufru/xroar-waveshare-rp2350-pizero](https://github.com/ugufru/xroar-waveshare-rp2350-pizero)
