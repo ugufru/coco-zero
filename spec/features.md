@@ -1,6 +1,6 @@
 # CoCo Zero features
 
-Status: **accepted** (CZ-16, CZ-21)
+Status: **accepted** (CZ-16, CZ-21, CZ-4)
 
 ## Connectors
 
@@ -26,3 +26,7 @@ Status: **accepted** (CZ-16, CZ-21)
 ## Cooling
 
 - Passively cooled. No fan.
+
+## Firmware
+
+- The firmware is open source.

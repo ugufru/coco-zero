@@ -48,8 +48,8 @@ keeping the essence of what it means to operate a CoCo.
        alt="On the left, a CoCo emulator on a modern computer sits on a dozen layers: hardware, firmware, bootloader, kernel, drivers, services, login, display server, desktop, libraries, background apps, the emulator app. On the right, a CoCo Zero is just hardware and XRoar, the CoCo emulator and configuration, with zero extra">
 </p>
 
-**A CoCo, and more.** A CoCo Zero emulates a CoCo 1, 2 or 3. The CoCo 3 has 128K,
-and ideally 512K, 2M or more. A CoCo Zero also does things the original
+**A CoCo, and more.** A CoCo Zero is at least a 128K CoCo 3, and ideally
+512K, 2M or more. It can be a 64K CoCo 1 or 2 as well. A CoCo Zero also does things the original
 machines never did: a sharp digital picture and clean sound on an ordinary
 TV, a USB keyboard and gamepad, a microSD card in place of tapes and floppies.
 That list will keep growing. See [CoCo 2, CoCo 3, CoCo Zero](docs/comparison.md)
@@ -69,18 +69,19 @@ on third-party manufacturers for the electronics, as with any computer case.
 
 **Quiet.** Every CoCo Zero is passively cooled. No fan.
 
-**Open.** In the tradition of [XRoar](https://www.6809.org.uk/xroar/), the
-emulator it grew from, the reference firmware is completely open source.
+**Open.** Every CoCo Zero's firmware is open source, in the tradition of
+[XRoar](https://www.6809.org.uk/xroar/), the emulator it grew from. A firmware
+built on XRoar is open already: XRoar is GPL 3, so its source travels with it.
 
 ## The standard
 
 | Page | What it sets |
 |---|---|
 | [Form factor](spec/form-factor.md) | The Raspberry Pi Zero outline and mounting holes |
-| [Features](spec/features.md) | Two USB-C ports (power and programming, and a USB host), mini HDMI, microSD; 640 x 480 at 60 Hz over HDMI with sound; real time at double speed with no dropped frames or sound gaps; passive cooling |
+| [Machines](spec/machines.md) | A CoCo 3 with at least 128K; a CoCo 1 or 2, if offered, with at least 64K |
+| [Features](spec/features.md) | Two USB-C ports (power and programming, and a USB host), mini HDMI, microSD; 640 x 480 at 60 Hz over HDMI with sound; real time at double speed with no dropped frames or sound gaps; passive cooling; open-source firmware |
 
-More is on the way: the machines and memory sizes, bare metal, and a
-one-page definition. The work is tracked in [`issues.jsonl`](issues.jsonl)
+More is on the way: bare metal, and a one-page definition. The work is tracked in [`issues.jsonl`](issues.jsonl)
 and ranked in [`roadmap.jsonl`](roadmap.jsonl), and
 [`issues.html`](issues.html) shows both (download the repository and open it
 in a browser). To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
