@@ -47,7 +47,7 @@
   <g font-size="15" text-anchor="middle">
     <rect x="480" y="486" width="360" height="74" rx="5" fill="#2da44e"/>
     <text x="660" y="516" fill="#ffffff" font-weight="600">XRoar</text>
-    <text x="660" y="540" fill="#ffffff">the CoCo, and a small menu</text>
+    <text x="660" y="540" fill="#ffffff">CoCo Emulator and Configuration</text>
     <rect x="480" y="566" width="360" height="34" rx="5" fill="#57606a"/>
     <text x="660" y="588" fill="#ffffff">Hardware</text>
   </g>

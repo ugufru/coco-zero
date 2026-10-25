@@ -45,7 +45,7 @@ keeping the essence of what it means to operate a CoCo.
 
 <p align="center">
   <img src="docs/images/zero-os.svg" width="640"
-       alt="On the left, a CoCo emulator on a modern computer sits on a dozen layers: hardware, firmware, bootloader, kernel, drivers, services, login, display server, desktop, libraries, background apps, the emulator app. On the right, a CoCo Zero is just hardware and XRoar, with zero extra">
+       alt="On the left, a CoCo emulator on a modern computer sits on a dozen layers: hardware, firmware, bootloader, kernel, drivers, services, login, display server, desktop, libraries, background apps, the emulator app. On the right, a CoCo Zero is just hardware and XRoar, the CoCo emulator and configuration, with zero extra">
 </p>
 
 **A CoCo, and more.** A CoCo Zero emulates a CoCo 1, 2 or 3. The CoCo 3 has 128K,
