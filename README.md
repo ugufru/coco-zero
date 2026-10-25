@@ -60,8 +60,9 @@ for the comparison, row by row.
        alt="A CoCo 1, 2 or 3, plus: mini HDMI for picture and sound on one cable, USB-C power from a phone charger, a USB keyboard and gamepad, a microSD card for disks, programs and cartridges, an on-screen menu to pick games, and Print Screen to save screenshots to the card">
 </p>
 
-**A standard, not a blueprint.** Think of the rules for a kei car, or for a
-US mailbox: they fix the general shape and leave the rest to the builder.
+**A standard, not a blueprint.** Think of a shipping container, or an AA
+battery. The standard fixes the outside: the size, and where it fastens or
+connects. What goes inside is up to whoever makes it.
 This standard is deliberately sparse. It leaves the most room for DIY
 builders to adapt a CoCo Zero and make it their own, while letting them rely
 on third-party manufacturers for the electronics, as with any computer case.
