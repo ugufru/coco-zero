@@ -83,7 +83,7 @@ More is on the way: the machines and memory sizes, bare metal, and a
 one-page definition. The work is tracked in [`issues.jsonl`](issues.jsonl)
 and ranked in [`roadmap.jsonl`](roadmap.jsonl), and
 [`issues.html`](issues.html) shows both (download the repository and open it
-in a browser).
+in a browser). To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## The reference CoCo Zero
 
@@ -125,6 +125,12 @@ dumps from hardware you own.
 - [CoCopedia](https://www.cocopedia.com/): the Color Computer wiki.
 - [Color Computer Archive](https://colorcomputerarchive.com/): software,
   manuals and magazines.
+
+## License
+
+The documents and drawings in this repository are licensed under
+[CC BY 4.0](LICENSE): share and adapt them freely, with credit. The CoCo 2
+photo is not ours; it is used under its own terms, credited where it appears.
 
 ## Trademarks
 
