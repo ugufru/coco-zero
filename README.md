@@ -75,11 +75,18 @@ built on XRoar is open already: XRoar is GPL 3, so its source travels with it.
 
 ## The standard
 
+A CoCo Zero is anything that meets every requirement on these pages. There
+are no tiers and no certification.
+
 | Page | What it sets |
 |---|---|
 | [Form factor](spec/form-factor.md) | The Raspberry Pi Zero outline and mounting holes |
 | [Machines](spec/machines.md) | A CoCo 3 with at least 128K; a CoCo 1 or 2, if offered, with at least 64K |
 | [Features](spec/features.md) | Two USB-C ports (power and programming, and a USB host), mini HDMI, microSD; 640 x 480 at 60 Hz over HDMI with sound; real time at double speed with no dropped frames or sound gaps; passive cooling; open-source firmware |
+
+The whole standard is also on one page as a PDF:
+[`spec/coco-zero-spec.pdf`](spec/coco-zero-spec.pdf), built from the pages
+above by [`tools/spec_pdf.py`](tools/spec_pdf.py).
 
 More is on the way: bare metal, and a one-page definition. The work is tracked in [`issues.jsonl`](issues.jsonl)
 and ranked in [`roadmap.jsonl`](roadmap.jsonl), and
