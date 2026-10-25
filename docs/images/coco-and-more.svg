@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>A CoCo 1, 2 or 3, plus mini HDMI, USB-C power, a USB keyboard and gamepad, a microSD card, an on-screen game list and screenshots</title>
+
+  <rect width="900" height="360" rx="12" fill="#f6f8fa"/>
+
+  <!-- the CoCo -->
+  <rect x="40" y="90" width="220" height="180" rx="10" fill="#1f2328"/>
+  <g transform="translate(150 140)">
+    <path d="M-34 14L-22 -14H-12L-24 14Z" fill="#cf222e"/>
+    <path d="M-17 14L-5 -14H5L-7 14Z" fill="#2da44e"/>
+    <path d="M0 14L12 -14H22L10 14Z" fill="#0969da"/>
+  </g>
+  <text x="150" y="200" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">CoCo 1, 2 or 3</text>
+  <text x="150" y="226" font-size="14" fill="#d0d7de" text-anchor="middle">the machine, emulated</text>
+
+  <text x="300" y="196" font-size="48" font-weight="300" fill="#57606a" text-anchor="middle">+</text>
+
+  <!-- tiles -->
+  <g fill="#ffffff" stroke="#d0d7de" stroke-width="1.5">
+    <rect x="340" y="30" width="160" height="140" rx="10"/>
+    <rect x="520" y="30" width="160" height="140" rx="10"/>
+    <rect x="700" y="30" width="160" height="140" rx="10"/>
+    <rect x="340" y="190" width="160" height="140" rx="10"/>
+    <rect x="520" y="190" width="160" height="140" rx="10"/>
+    <rect x="700" y="190" width="160" height="140" rx="10"/>
+  </g>
+
+  <!-- icons -->
+  <g fill="none" stroke="#2da44e" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- mini HDMI -->
+    <g transform="translate(420 68)">
+      <path d="M-24 -10H24V3L17 10H-17L-24 3Z"/>
+      <path d="M-15 -2H15"/>
+    </g>
+    <!-- USB-C -->
+    <g transform="translate(600 68)">
+      <rect x="-22" y="-9" width="44" height="18" rx="9"/>
+      <path d="M-12 0H12"/>
+    </g>
+    <!-- gamepad -->
+    <g transform="translate(780 68)">
+      <path d="M-16 -12H16C24 -12 28 -4 28 6C28 14 22 16 17 10L12 4H-12L-17 10C-22 16 -28 14 -28 6C-28 -4 -24 -12 -16 -12Z"/>
+      <path d="M-15 -5V5M-20 0H-10"/>
+      <circle cx="12" cy="-3" r="1.5" fill="#2da44e"/>
+      <circle cx="18" cy="2" r="1.5" fill="#2da44e"/>
+    </g>
+    <!-- microSD -->
+    <g transform="translate(420 228)">
+      <path d="M-13 -18H9L15 -12V-3L12 0V18H-13Z"/>
+      <path d="M-7 -18V-11M-2 -18V-11M3 -18V-11"/>
+    </g>
+    <!-- on-screen list -->
+    <g transform="translate(600 228)">
+      <rect x="-24" y="-17" width="48" height="34" rx="4"/>
+      <path d="M-15 -8H10M-15 8H6"/>
+      <rect x="-18" y="-4" width="36" height="8" rx="2" fill="#2da44e" stroke="none"/>
+    </g>
+    <!-- screenshot -->
+    <g transform="translate(780 228)">
+      <path d="M-24 -9V-17H-14M14 -17H24V-9M24 9V17H14M-14 17H-24V9"/>
+      <circle cx="0" cy="0" r="7"/>
+    </g>
+  </g>
+
+  <!-- labels -->
+  <g text-anchor="middle" fill="#1f2328">
+    <g font-size="16" font-weight="600">
+      <text x="420" y="116">Mini HDMI</text>
+      <text x="600" y="116">USB-C power</text>
+      <text x="780" y="116">USB host</text>
+      <text x="420" y="276">microSD</text>
+      <text x="600" y="276">On-screen menu</text>
+      <text x="780" y="276">Print Screen</text>
+    </g>
+    <g font-size="13" fill="#57606a">
+      <text x="420" y="138">Sharp picture and sound</text>
+      <text x="420" y="155">on one cable to a TV</text>
+      <text x="600" y="138">Runs from a</text>
+      <text x="600" y="155">phone charger</text>
+      <text x="780" y="138">Keyboard and gamepad</text>
+      <text x="780" y="155">plug straight in</text>
+      <text x="420" y="298">Disks, programs and</text>
+      <text x="420" y="315">cartridges on one card</text>
+      <text x="600" y="298">Pick a game from</text>
+      <text x="600" y="315">a list, no typing</text>
+      <text x="780" y="298">Screenshots saved</text>
+      <text x="780" y="315">straight to the card</text>
+    </g>
+  </g>
+</svg>

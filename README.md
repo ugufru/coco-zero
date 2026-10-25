@@ -18,11 +18,24 @@ but the motherboard was always the same size and shape and fitted the same
 case. The CoCo Zero carries that idea forward. There can be many CoCo Zeros,
 from different builders on different boards, and they all fit the same case.
 
+<p align="center">
+  <img src="docs/images/coco2.jpg" width="460"
+       alt="A Tandy 64K Color Computer 2 in its white case, with the red BREAK key and the Tandy rainbow nameplate">
+  <br>
+  <sub>The Tandy 64K Color Computer 2. Photo by Lamune, via
+  <a href="https://commons.wikimedia.org/wiki/File:TRS-80_Color_Computer_2-64K.jpg">Wikimedia Commons</a>.</sub>
+</p>
+
 The **Zero** means two things.
 
 **The board size.** Raspberry Pi set the Pi Zero size in 2015, and others
 have followed it since, from Waveshare to Orange Pi. A CoCo Zero is built on
 a board of that size: 65 x 30 mm, with the same four mounting holes.
+
+<p align="center">
+  <img src="docs/images/form-factor.svg" width="640"
+       alt="Blueprint of the Pi Zero board outline: 65 x 30 mm with 3 mm corner radius, and four 2.75 mm mounting holes for M2.5 screws, 3.5 mm in from each edge and 58 by 23 mm apart">
+</p>
 
 **Zero operating system.** There is nothing between you and the machine but
 one layer of software: the emulated CoCo, and a lightweight monitor and
@@ -30,12 +43,22 @@ configuration screen that runs nothing else. Switch it on and BASIC is there,
 just as it was in 1983. The CoCo Zero gets as close to that as it can while
 keeping the essence of what it means to operate a CoCo.
 
+<p align="center">
+  <img src="docs/images/zero-os.svg" width="640"
+       alt="On the left, a CoCo emulator on a modern computer sits on a dozen layers: hardware, firmware, bootloader, kernel, drivers, services, login, display server, desktop, libraries, background apps, the emulator app. On the right, a CoCo Zero is just hardware and XRoar, with zero extra">
+</p>
+
 **A CoCo, and more.** A CoCo Zero emulates a CoCo 1, 2 or 3. The CoCo 3 has 128K,
 and ideally 512K, 2M or more. A CoCo Zero also does things the original
 machines never did: a sharp digital picture and clean sound on an ordinary
 TV, a USB keyboard and gamepad, a microSD card in place of tapes and floppies.
 That list will keep growing. See [CoCo 2, CoCo 3, CoCo Zero](docs/comparison.md)
 for the comparison, row by row.
+
+<p align="center">
+  <img src="docs/images/coco-and-more.svg" width="640"
+       alt="A CoCo 1, 2 or 3, plus: mini HDMI for picture and sound on one cable, USB-C power from a phone charger, a USB keyboard and gamepad, a microSD card for disks, programs and cartridges, an on-screen menu to pick games, and Print Screen to save screenshots to the card">
+</p>
 
 **A standard, not a blueprint.** Think of the rules for a kei car, or for a
 US mailbox: they fix the general shape and leave the rest to the builder.

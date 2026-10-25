@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 530" width="900" height="530" font-family="SFMono-Regular, Menlo, Consolas, monospace">
+  <title>CoCo Zero form factor: the Raspberry Pi Zero outline, 65 x 30 mm, with four M2.5 mounting holes</title>
+  <defs>
+    <pattern id="minor" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0V10" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <pattern id="major" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="url(#minor)"/>
+      <path d="M50 0H0V50" fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0 1L10 5L0 9z" fill="#eaf4ff"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="530" rx="12" fill="#0d3b66"/>
+  <rect width="900" height="530" rx="12" fill="url(#major)"/>
+
+  <g stroke="#eaf4ff" fill="none">
+    <!-- board outline, 10 px per mm, origin at (120, 110) -->
+    <rect x="120" y="110" width="650" height="300" rx="30" stroke-width="2.5" fill="#ffffff" fill-opacity="0.04"/>
+
+    <!-- mounting holes, 2.75 mm -->
+    <g stroke-width="2">
+      <circle cx="155" cy="145" r="13.75"/>
+      <circle cx="735" cy="145" r="13.75"/>
+      <circle cx="155" cy="375" r="13.75"/>
+      <circle cx="735" cy="375" r="13.75"/>
+    </g>
+    <g stroke-width="1" stroke-dasharray="8 3 2 3" stroke-opacity="0.7">
+      <path d="M133 145h44M155 123v44"/>
+      <path d="M713 145h44M735 123v44"/>
+      <path d="M133 375h44M155 353v44"/>
+      <path d="M713 375h44M735 353v44"/>
+    </g>
+
+    <!-- extension lines -->
+    <g stroke-width="1" stroke-opacity="0.7">
+      <path d="M120 104V60M155 126V60M735 126V60"/>
+      <path d="M120 416V465M770 416V465"/>
+      <path d="M114 110H63M114 410H63"/>
+      <path d="M776 110H827M754 145H827M754 375H827"/>
+    </g>
+
+    <!-- dimension lines -->
+    <g stroke-width="1.5" marker-start="url(#arrow)" marker-end="url(#arrow)">
+      <path d="M120 70H155"/>
+      <path d="M155 70H735"/>
+      <path d="M120 455H770"/>
+      <path d="M73 110V410"/>
+      <path d="M817 110V145"/>
+      <path d="M817 145V375"/>
+    </g>
+
+    <!-- leaders -->
+    <g stroke-width="1.2">
+      <path d="M128.8 401.2L168 436"/>
+      <path d="M725.3 365.3L652 304"/>
+    </g>
+  </g>
+
+  <g fill="#eaf4ff" font-size="16" text-anchor="middle">
+    <text x="137.5" y="60">3.5</text>
+    <text x="445" y="60">58</text>
+    <text x="445" y="445">65</text>
+    <text transform="translate(63 260) rotate(-90)">30</text>
+    <text transform="translate(837 127.5) rotate(90)">3.5</text>
+    <text transform="translate(837 260) rotate(90)">23</text>
+    <text x="172" y="448" text-anchor="start">R3</text>
+    <text x="646" y="298" text-anchor="end">4 x &#216;2.75, for M2.5</text>
+    <text x="445" y="266" font-size="22" letter-spacing="4" fill-opacity="0.4">PI ZERO SIZE</text>
+  </g>
+
+  <g fill="#eaf4ff" font-size="13" fill-opacity="0.85">
+    <text x="40" y="505">COCO ZERO FORM FACTOR. ALL DIMENSIONS IN MM.</text>
+    <text x="860" y="505" text-anchor="end">AFTER RASPBERRY PI RPI-ZERO-V1_2</text>
+  </g>
+</svg>
