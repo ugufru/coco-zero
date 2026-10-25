@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Build spec/coco-zero-spec.pdf, the whole standard on one page.
 
+It opens with the definition paragraph from spec/definition.md.
+
 The spec/*.md pages stay the source of truth. This only ever reads them.
 
     python3 tools/spec_pdf.py [out.pdf]
@@ -127,13 +129,13 @@ class Page:
             sys.exit("spec_pdf: the spec no longer fits on one page")
 
 
-SIZE, LEAD = 10.5, 14.5
+SIZE, LEAD = 10.5, 13.5
 
 
 def render(page, blocks):
     for kind, payload in blocks:
         if kind == "section":
-            page.down(26)
+            page.down(24)
             page.text(LEFT, page.y, payload, 13, bold=True)
             page.rule(LEFT, RIGHT, page.y - 5, 0.4, 0.6)
             page.down(6)
@@ -209,9 +211,10 @@ def main():
     page = Page()
     page.text(LEFT, page.y, "CoCo Zero", 22, bold=True)
     page.text(RIGHT - width("The standard", 11), page.y, "The standard", 11, grey=0.4)
-    page.down(22)
-    page.text(LEFT, page.y, "A CoCo Zero is anything that meets every requirement on this page.", SIZE)
-    page.down(4)
+    page.down(8)
+    definition = next(p for kind, p in parse(ROOT / "spec" / "definition.md") if kind == "para")
+    render(page, [("para", definition),
+                  ("para", "A CoCo Zero is anything that meets every requirement on this page.")])
     for name in PAGES:
         render(page, parse(ROOT / "spec" / name))
 

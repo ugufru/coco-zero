@@ -7,8 +7,12 @@
        alt="The reference CoCo Zero in its printed case, shaped like a CoCo 2, with its mini HDMI cable and two USB-C cables plugged in and a microSD card in its slot">
 </p>
 
-This repository is the CoCo Zero standard. It describes what a CoCo Zero is
-and what qualifies as one. It does not tell you how to build one.
+A CoCo Zero is a Tandy Color Computer emulator on a board the size of a
+Raspberry Pi Zero. Switch it on and BASIC is there, with no operating system
+in between. It is at least a 128K CoCo 3. It plugs into an ordinary TV with a
+mini HDMI cable, takes a USB keyboard and gamepad, and keeps its disks and
+programs on a microSD card. Anyone can build one, on any board of that size,
+and every one fits the same case. ([What is a CoCo Zero](spec/definition.md))
 
 ## The vision
 
@@ -80,6 +84,7 @@ are no tiers and no certification.
 
 | Page | What it sets |
 |---|---|
+| [Definition](spec/definition.md) | What a CoCo Zero is, and what it is not, in one page |
 | [Form factor](spec/form-factor.md) | The Raspberry Pi Zero outline and mounting holes |
 | [Machines](spec/machines.md) | A CoCo 3 with at least 128K; a CoCo 1 or 2, if offered, with at least 64K |
 | [Features](spec/features.md) | Two USB-C ports (power and programming, and a USB host), mini HDMI, microSD; 640 x 480 at 60 Hz DVI with embedded sound; real time at double speed with no dropped frames or sound gaps; passive cooling; open-source firmware |
@@ -88,7 +93,7 @@ The whole standard is also on one page as a PDF:
 [`spec/coco-zero-spec.pdf`](spec/coco-zero-spec.pdf), built from the pages
 above by [`tools/spec_pdf.py`](tools/spec_pdf.py).
 
-More is on the way: bare metal, and a one-page definition. The work is tracked in [`issues.jsonl`](issues.jsonl)
+More is on the way: bare metal. The work is tracked in [`issues.jsonl`](issues.jsonl)
 and ranked in [`roadmap.jsonl`](roadmap.jsonl), and
 [`issues.html`](issues.html) shows both (download the repository and open it
 in a browser). To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
