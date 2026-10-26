@@ -21,7 +21,7 @@ import zlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PAGES = ["form-factor.md", "machines.md", "features.md"]
+PAGES = ["form-factor.md", "machines.md", "zero-os.md", "features.md"]
 OUT = ROOT / "spec" / "coco-zero-spec.pdf"
 
 W, H = 612, 792  # US Letter, in points
@@ -132,25 +132,46 @@ class Page:
 SIZE, LEAD = 10.5, 13.5
 
 
-def render(page, blocks):
+GUTTER = 24
+
+
+def render_page(page, blocks):
+    """A spec page with subheadings goes in two columns, split at the subheading
+    nearest the middle, so the short Features lists do not run down the page."""
+    heads = [i for i, (kind, _) in enumerate(blocks) if kind == "subhead"]
+    if len(heads) < 2:
+        render(page, blocks)
+        return
+    split = min(heads[1:], key=lambda i: abs(i - len(blocks) / 2))
+    render(page, blocks[:heads[0]])
+    page.down(-(LEAD + 4) + 14)  # the first subheading sits just under the rule
+    top, mid = page.y, (LEFT + RIGHT + GUTTER) / 2
+    render(page, blocks[heads[0]:split], LEFT, mid - GUTTER)
+    low = page.y
+    page.y = top
+    render(page, blocks[split:], mid, RIGHT)
+    page.y = min(low, page.y)
+
+
+def render(page, blocks, left=LEFT, right=RIGHT):
     for kind, payload in blocks:
         if kind == "section":
             page.down(24)
-            page.text(LEFT, page.y, payload, 13, bold=True)
-            page.rule(LEFT, RIGHT, page.y - 5, 0.4, 0.6)
+            page.text(left, page.y, payload, 13, bold=True)
+            page.rule(left, right, page.y - 5, 0.4, 0.6)
             page.down(6)
         elif kind == "subhead":
             page.down(LEAD + 4)
-            page.text(LEFT, page.y, payload, SIZE, bold=True)
+            page.text(left, page.y, payload, SIZE, bold=True)
         elif kind == "para":
-            for line in wrap(payload, SIZE, RIGHT - LEFT):
+            for line in wrap(payload, SIZE, right - left):
                 page.down(LEAD)
-                page.text(LEFT, page.y, line, SIZE)
+                page.text(left, page.y, line, SIZE)
             page.down(4)
         elif kind == "bullet":
             level, text = payload
-            indent = LEFT + 4 + level * 16
-            for i, line in enumerate(wrap(text, SIZE, RIGHT - indent - 12)):
+            indent = left + 4 + level * 16
+            for i, line in enumerate(wrap(text, SIZE, right - indent - 12)):
                 page.down(LEAD)
                 if i == 0:
                     page.text(indent, page.y, "•" if level == 0 else "–", SIZE)
@@ -158,14 +179,14 @@ def render(page, blocks):
         elif kind == "table":
             first = max(width(r[0], SIZE, i == 0) for i, r in enumerate(payload)) + 18
             page.down(6)
-            page.rule(LEFT, RIGHT, page.y)
+            page.rule(left, right, page.y)
             for i, row in enumerate(payload):
                 page.down(LEAD + 1)
                 for col, cell in enumerate(row[:2]):
-                    page.text(LEFT + (first if col else 0), page.y, cell, SIZE, bold=i == 0)
+                    page.text(left + (first if col else 0), page.y, cell, SIZE, bold=i == 0)
                 if i == 0:
-                    page.rule(LEFT, RIGHT, page.y - 5, 0.4)
-            page.rule(LEFT, RIGHT, page.y - 5)
+                    page.rule(left, right, page.y - 5, 0.4)
+            page.rule(left, right, page.y - 5)
             page.down(4)
 
 
@@ -216,7 +237,7 @@ def main():
     render(page, [("para", definition),
                   ("para", "A CoCo Zero is anything that meets every requirement on this page.")])
     for name in PAGES:
-        render(page, parse(ROOT / "spec" / name))
+        render_page(page, parse(ROOT / "spec" / name))
 
     grey = 0.4
     page.rule(LEFT, RIGHT, 62, 0.4, 0.6)

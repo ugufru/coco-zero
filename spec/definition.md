@@ -14,7 +14,7 @@ and every one fits the same case.
 - **The size.** A board of the Raspberry Pi Zero outline, with the same four
   mounting holes. See [Form factor](form-factor.md).
 - **Zero operating system.** One layer of software between you and the
-  machine.
+  machine. See [Zero operating system](zero-os.md).
 - **A CoCo.** At least a 128K CoCo 3, and a 64K CoCo 1 or 2 if it offers one.
   See [Machines](machines.md).
 - **Modern connections.** Mini HDMI, two USB-C ports and microSD, with a
