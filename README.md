@@ -120,6 +120,9 @@ CoCo 2.
 Source, build instructions and the case:
 [ugufru/xroar-waveshare-rp2350-pizero](https://github.com/ugufru/xroar-waveshare-rp2350-pizero)
 
+Every known CoCo Zero is listed in [`implementations/`](implementations/README.md),
+with how to add yours.
+
 The name began there, as a name for a CoCo on a Pi Zero size board. It became
 the name for the idea once the same board ran a CoCo 3 too.
 
