@@ -56,8 +56,8 @@ keeping the essence of what it means to operate a CoCo.
 512K, 2M or more. It can be a 64K CoCo 1 or 2 as well. A CoCo Zero also does things the original
 machines never did: a sharp digital picture and clean sound on an ordinary
 TV, a USB keyboard and gamepad, a microSD card in place of tapes and floppies.
-That list will keep growing. See [CoCo 2, CoCo 3, CoCo Zero](docs/comparison.md)
-for the comparison, row by row.
+That list will keep growing: see [Beyond the CoCo](docs/extras.md). See
+[CoCo 2, CoCo 3, CoCo Zero](docs/comparison.md) for the comparison, row by row.
 
 <p align="center">
   <img src="docs/images/coco-and-more.svg" width="640"
