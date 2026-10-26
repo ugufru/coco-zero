@@ -28,5 +28,10 @@ grain. The first one governs the rest.
    enough to spend $20. Nothing in the standard should price them out or
    shut them out.
 
-7. **Only what is true.** Every claim about a CoCo Zero describes something a
+7. **Room to play.** A CoCo Zero is a playground for developers. Its limits
+   need not be practical, as long as they are within reach. The spec sets a
+   floor, never a ceiling: a 2M CoCo 3, every sound cartridge built in at once,
+   or a HAT nobody planned for are all welcome.
+
+8. **Only what is true.** Every claim about a CoCo Zero describes something a
    real one does today. What is planned is called planned.
