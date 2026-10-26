@@ -1,5 +1,4 @@
-{"rank": 1, "id": "CZ-8", "why": "The audience is settled (CZ-23) and bare metal is written down (CZ-18), so the principles can now be drawn from what the spec already says.", "added": "2026-10-25"}
-{"rank": 2, "id": "CZ-11", "why": "Needed before calling the standard 1.0, but with one maintainer nothing waits on it yet.", "added": "2026-10-25"}
-{"rank": 3, "id": "CZ-13", "why": "Matters once other builders use the name. HDMI wording is settled (CZ-25); this covers the CoCo Zero name itself.", "added": "2026-10-25"}
-{"rank": 4, "id": "CZ-20", "why": "May end up as nothing: the spec carries only hard limits. One question for the user, whether a maximum height belongs in it.", "added": "2026-10-25"}
-{"rank": 5, "id": "CZ-14", "why": "Newcomers are in the audience (CZ-23: anyone curious enough to spend $20), so this is worth writing; it comes last because it explains terms the other pages settle.", "added": "2026-10-25"}
+{"rank": 1, "id": "CZ-11", "why": "Needed before calling the standard 1.0, but with one maintainer nothing waits on it yet.", "added": "2026-10-25"}
+{"rank": 2, "id": "CZ-13", "why": "Matters once other builders use the name. HDMI wording is settled (CZ-25); this covers the CoCo Zero name itself.", "added": "2026-10-25"}
+{"rank": 3, "id": "CZ-20", "why": "May end up as nothing: the spec carries only hard limits. One question for the user, whether a maximum height belongs in it.", "added": "2026-10-25"}
+{"rank": 4, "id": "CZ-14", "why": "Newcomers are in the audience (CZ-23: anyone curious enough to spend $20), so this is worth writing; it comes last because it explains terms the other pages settle.", "added": "2026-10-25"}

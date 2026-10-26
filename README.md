@@ -81,6 +81,9 @@ the CoCo to spend $20 finding out.
 [XRoar](https://www.6809.org.uk/xroar/), the emulator it grew from. A firmware
 built on XRoar is open already: XRoar is GPL 3, so its source travels with it.
 
+The rules behind these choices are set out in
+[Design principles](docs/principles.md).
+
 ## The standard
 
 A CoCo Zero is anything that meets every requirement on these pages. There
