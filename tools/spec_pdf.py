@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build spec/coco-zero-spec.pdf, the whole standard on one page.
 
-It opens with the definition paragraph from spec/definition.md.
+It opens with the definition paragraph from spec/definition.md, and carries the
+version number from docs/versioning.md.
 
 The spec/*.md pages stay the source of truth. This only ever reads them.
 
@@ -203,6 +204,13 @@ def spec_date():
     return datetime.date.today().isoformat()
 
 
+def spec_version():
+    m = re.search(r"Current version: \*\*([0-9.]+)\*\*", (ROOT / "docs" / "versioning.md").read_text())
+    if not m:
+        sys.exit("spec_pdf: no 'Current version' line in docs/versioning.md")
+    return m.group(1)
+
+
 def pdf(content):
     stream = zlib.compress(content)
     objects = [
@@ -231,7 +239,8 @@ def main():
     out = Path(sys.argv[1]) if len(sys.argv) > 1 else OUT
     page = Page()
     page.text(LEFT, page.y, "CoCo Zero", 22, bold=True)
-    page.text(RIGHT - width("The standard", 11), page.y, "The standard", 11, grey=0.4)
+    label = f"The standard, version {spec_version()}"
+    page.text(RIGHT - width(label, 11), page.y, label, 11, grey=0.4)
     page.down(8)
     definition = next(p for kind, p in parse(ROOT / "spec" / "definition.md") if kind == "para")
     render(page, [("para", definition),
