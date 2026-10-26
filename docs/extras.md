@@ -38,7 +38,7 @@ also has these. Other CoCo Zeros may do more or less.
 - **Screenshots** to the card with Print Screen.
 - **Autorun:** a game can start by itself at power-on.
 - **NitrOS-9**, from a boot disk an included script builds.
-- **A printable case** shaped like a CoCo 2.
+- **A printable case** styled after the ventilated top of a CoCo 2.
 
 For the same ground row by row against a CoCo 2 and a CoCo 3, see
 [CoCo 2, CoCo 3, CoCo Zero](comparison.md).

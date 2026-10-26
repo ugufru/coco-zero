@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="docs/images/in-use-angle.jpg" width="460"
-       alt="The reference CoCo Zero in its printed case, shaped like a CoCo 2, with its mini HDMI cable and two USB-C cables plugged in and a microSD card in its slot">
+       alt="The reference CoCo Zero in its printed case, its lid vented like a CoCo 2's, with its mini HDMI cable and two USB-C cables plugged in and a microSD card in its slot">
 </p>
 
 A CoCo Zero is a Tandy Color Computer emulator on a board the size of a
@@ -107,8 +107,8 @@ in a browser). To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 The first CoCo Zero is XRoar running on a
 [Waveshare RP2350-PiZero](https://www.waveshare.com/rp2350-pizero.htm). It
-emulates a CoCo 2 or a 128K CoCo 3 in one firmware, with a printable case shaped like a
-CoCo 2.
+emulates a CoCo 2 or a 128K CoCo 3 in one firmware, with a printable case
+styled after the ventilated top of a CoCo 2.
 
 <p align="center">
   <img src="docs/images/board-wired.jpg" width="380"
