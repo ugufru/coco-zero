@@ -14,6 +14,8 @@ CoCo 3 too, and this standard now says what it means.
 - **If it does not, say what it is instead.** There is no "CoCo Zero
   compatible" or other half-way name. A build that meets most of the standard
   can say which version it follows and what it leaves out.
+- **There is no logo.** The standard has no logo, badge or branding. The
+  name is all there is.
 - **Add it to the list.** Known CoCo Zeros are listed in
   [`implementations/`](../implementations/README.md).
 
