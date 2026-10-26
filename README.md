@@ -161,4 +161,5 @@ photo is not ours; it is used under its own terms, credited where it appears.
 
 Tandy and Color Computer belong to their owners. "Raspberry Pi" is a
 trademark of Raspberry Pi Ltd. A CoCo Zero is not a Tandy or Raspberry Pi
-product.
+product. How to use the CoCo Zero name, and other people's, is set out in
+[The name](docs/name.md).
