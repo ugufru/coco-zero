@@ -89,7 +89,7 @@ The rules behind these choices are set out in
 ## The standard
 
 A CoCo Zero is anything that meets every requirement on these pages. There
-are no tiers and no certification. This is version 2.0; how it changes is
+are no tiers and no certification. This is version 2.1; how it changes is
 set out in [Versions and changes](docs/versioning.md).
 
 | Page | What it sets |

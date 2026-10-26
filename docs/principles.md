@@ -10,7 +10,9 @@ grain. The first one governs the rest.
    electronics.
 
 2. **Zero operating system.** One layer of software between you and the
-   machine. Switch it on and BASIC is there.
+   machine. Switch it on and BASIC is there. Libraries are allowed, but each
+   one is a layer of its own between the emulator and the hardware, so keep
+   them as few and as thin as the emulator can manage with.
 
 3. **Look forward.** A CoCo Zero uses what people already own: a TV, a phone
    charger, a USB keyboard, a microSD card. The extras are modern
