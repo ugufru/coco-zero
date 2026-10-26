@@ -7,7 +7,7 @@ Raspberry Pi Zero. Switch it on and BASIC is there, with no operating system
 in between. It is at least a 128K CoCo 3. It plugs into an ordinary TV with a
 mini HDMI cable, takes a USB keyboard and gamepad, and keeps its disks and
 programs on a microSD card. Anyone can build one, on any board of that size,
-and every one fits the same case.
+and every one has the same outline and mounting holes.
 
 ## What makes one
 

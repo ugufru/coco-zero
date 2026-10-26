@@ -12,7 +12,8 @@ Raspberry Pi Zero. Switch it on and BASIC is there, with no operating system
 in between. It is at least a 128K CoCo 3. It plugs into an ordinary TV with a
 mini HDMI cable, takes a USB keyboard and gamepad, and keeps its disks and
 programs on a microSD card. Anyone can build one, on any board of that size,
-and every one fits the same case. ([What is a CoCo Zero](spec/definition.md))
+and every one has the same outline and mounting holes.
+([What is a CoCo Zero](spec/definition.md))
 
 ## The vision
 
@@ -20,7 +21,8 @@ Every CoCo 2 was the same machine on the outside. Tandy built it in more than
 one factory and more than one revision, including the boards made in Korea,
 but the motherboard was always the same size and shape and fitted the same
 case. The CoCo Zero carries that idea forward. There can be many CoCo Zeros,
-from different builders on different boards, and they all fit the same case.
+from different builders on different boards, and they all share the same
+board size and mounting holes.
 
 <p align="center">
   <img src="docs/images/coco2.jpg" width="460"
