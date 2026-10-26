@@ -26,7 +26,7 @@ PAGES = ["form-factor.md", "machines.md", "zero-os.md", "features.md"]
 OUT = ROOT / "spec" / "coco-zero-spec.pdf"
 
 W, H = 612, 792  # US Letter, in points
-LEFT, RIGHT, TOP, BOTTOM = 60, 552, 732, 84
+LEFT, RIGHT, TOP, BOTTOM = 60, 552, 732, 74
 
 # Advance widths per 1000 units, from the Adobe Helvetica AFMs, for ASCII 32-126.
 _REG = [278, 278, 355, 556, 556, 889, 667, 191, 333, 333, 389, 584, 278, 333, 278, 278,
@@ -105,6 +105,9 @@ def parse(path):
             blocks.append(("bullet", (level, inline(line.lstrip()[2:]))))
         elif not line.strip():
             flush()
+        elif line.startswith(" ") and not para and blocks and blocks[-1][0] == "bullet":
+            level, text = blocks[-1][1]  # a bullet's wrapped continuation line
+            blocks[-1] = ("bullet", (level, f"{text} {inline(line.strip())}"))
         else:
             para.append(inline(line.strip()))
     flush()
@@ -130,23 +133,32 @@ class Page:
             sys.exit("spec_pdf: the spec no longer fits on one page")
 
 
-SIZE, LEAD = 10.5, 13.5
+SIZE, LEAD = 10, 12.5
 
 
 GUTTER = 24
 
 
+def height(blocks, left, right):
+    scratch = Page()
+    scratch.y = 10000
+    render(scratch, blocks, left, right)
+    return 10000 - scratch.y
+
+
 def render_page(page, blocks):
     """A spec page with subheadings goes in two columns, split at the subheading
-    nearest the middle, so the short Features lists do not run down the page."""
+    that makes them most even, so the short Features lists do not run down the page."""
     heads = [i for i, (kind, _) in enumerate(blocks) if kind == "subhead"]
     if len(heads) < 2:
         render(page, blocks)
         return
-    split = min(heads[1:], key=lambda i: abs(i - len(blocks) / 2))
+    mid = (LEFT + RIGHT + GUTTER) / 2
+    split = min(heads[1:], key=lambda i: max(height(blocks[heads[0]:i], LEFT, mid - GUTTER),
+                                             height(blocks[i:], mid, RIGHT)))
     render(page, blocks[:heads[0]])
     page.down(-(LEAD + 4) + 14)  # the first subheading sits just under the rule
-    top, mid = page.y, (LEFT + RIGHT + GUTTER) / 2
+    top = page.y
     render(page, blocks[heads[0]:split], LEFT, mid - GUTTER)
     low = page.y
     page.y = top
@@ -157,7 +169,7 @@ def render_page(page, blocks):
 def render(page, blocks, left=LEFT, right=RIGHT):
     for kind, payload in blocks:
         if kind == "section":
-            page.down(24)
+            page.down(22)
             page.text(left, page.y, payload, 13, bold=True)
             page.rule(left, right, page.y - 5, 0.4, 0.6)
             page.down(6)

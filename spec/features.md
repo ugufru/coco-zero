@@ -1,15 +1,23 @@
 # CoCo Zero features
 
-Status: **accepted** (CZ-16, CZ-21, CZ-4)
+Status: **accepted** (CZ-16, CZ-21, CZ-4, CZ-29)
 
 ## Connectors
 
 - Two USB-C ports:
   - one for power and programming;
   - one a USB host for peripherals.
-- A standard USB-C keyboard works when plugged into the host port.
 - Video output is a mini HDMI connector.
 - Storage is a microSD card slot.
+
+## USB devices
+
+- A standard USB-C keyboard works when plugged into the host port.
+- A USB joystick or gamepad works as the CoCo's joysticks.
+- A keyboard and a joystick work together through a simple USB hub (one with
+  a single hub chip).
+- A class-compliant USB audio device can play the sound in place of the video
+  cable.
 
 ## Video and sound
 

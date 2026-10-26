@@ -11,6 +11,10 @@ These follow from the spec.
 - **One cable to a TV.** Picture and sound together over a mini HDMI cable,
   640 x 480 at 60 Hz.
 - **A USB keyboard.** Any standard keyboard on the USB host port.
+- **A USB joystick or gamepad** in place of the CoCo's analog joysticks.
+- **A USB hub**, so the keyboard and joystick plug in together.
+- **USB audio:** headphones or speakers on a class-compliant USB audio device,
+  in place of the video cable's sound.
 - **A microSD card** in place of tapes and floppy drives.
 - **Load without typing.** Mount disks and load programs and cartridges from
   the configuration screen.
@@ -31,9 +35,8 @@ also has these. Other CoCo Zeros may do more or less.
   DACs, all playing at once.
 - **The CoCo 3's palette registers and timer** on the CoCo 2.
 - **A keyboard that types what is printed on it**, with auto-repeat.
-- **A USB gamepad** as both joysticks, which can also pick and start games.
-- **USB headphones** in place of the video cable's sound, with the volume on the
-  keyboard.
+- **A gamepad that works as both joysticks**, and can also pick and start games.
+- **Volume on the keyboard's volume keys** for USB audio.
 - **Settings in text files**, for every game or just one.
 - **Screenshots** to the card with Print Screen.
 - **Autorun:** a game can start by itself at power-on.

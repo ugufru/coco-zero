@@ -87,7 +87,7 @@ The rules behind these choices are set out in
 ## The standard
 
 A CoCo Zero is anything that meets every requirement on these pages. There
-are no tiers and no certification. This is version 1.0; how it changes is
+are no tiers and no certification. This is version 2.0; how it changes is
 set out in [Versions and changes](docs/versioning.md).
 
 | Page | What it sets |
@@ -96,7 +96,7 @@ set out in [Versions and changes](docs/versioning.md).
 | [Form factor](spec/form-factor.md) | The Raspberry Pi Zero outline and mounting holes |
 | [Machines](spec/machines.md) | A CoCo 3 with at least 128K; a CoCo 1 or 2, if offered, with at least 64K |
 | [Zero operating system](spec/zero-os.md) | No operating system; one configuration screen for emulator options, disk images, system information and loading programs and cartridges; nothing else |
-| [Features](spec/features.md) | Two USB-C ports (power and programming, and a USB host), mini HDMI, microSD; 640 x 480 at 60 Hz DVI with embedded sound; real time at double speed with no dropped frames or sound gaps; passive cooling; open-source firmware |
+| [Features](spec/features.md) | Two USB-C ports (power and programming, and a USB host), mini HDMI, microSD; a USB keyboard, joystick or gamepad, simple hub and class-compliant audio; 640 x 480 at 60 Hz DVI with embedded sound; real time at double speed with no dropped frames or sound gaps; passive cooling; open-source firmware |
 
 The whole standard is also on one page as a PDF:
 [`spec/coco-zero-spec.pdf`](spec/coco-zero-spec.pdf), built from the pages
