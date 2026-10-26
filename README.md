@@ -140,6 +140,8 @@ dumps from hardware you own.
 
 ## Resources
 
+- [Glossary](docs/glossary.md): the CoCo and CoCo Zero terms used here, with a
+  short background for newcomers.
 - [XRoar](https://www.6809.org.uk/xroar/): the Dragon and CoCo emulator by
   Ciaran Anscomb, the heart of the reference firmware.
 - [Reference firmware](https://github.com/ugufru/xroar-waveshare-rp2350-pizero):

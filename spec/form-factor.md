@@ -17,7 +17,7 @@ The *Raspberry Pi Zero 2 W* drawing gives the same values:
 
 ## Requirements
 
-All dimensions in millimetres. The origin is one corner of the board, with X
+All dimensions in millimeters. The origin is one corner of the board, with X
 along the 65 mm edge and Y along the 30 mm edge.
 
 | Feature | Value |
@@ -25,4 +25,4 @@ along the 65 mm edge and Y along the 30 mm edge.
 | Board outline | 65 x 30 |
 | Corner radius | 3.0 |
 | Mounting holes | 4, for M2.5, drilled 2.75 +/- 0.05 |
-| Hole centres | (3.5, 3.5), (61.5, 3.5), (3.5, 26.5), (61.5, 26.5) |
+| Hole centers | (3.5, 3.5), (61.5, 3.5), (3.5, 26.5), (61.5, 26.5) |

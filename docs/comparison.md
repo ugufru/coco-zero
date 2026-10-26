@@ -5,7 +5,7 @@ Tandy fixed some of it in 1986. The rest took forty years.
 
 | | Tandy CoCo 2 (1983) | Tandy CoCo 3 (1986) | CoCo Zero (2026) |
 |---|---|---|---|
-| **Picture** | ✕ RF out to channel 3 or 4: fuzz, shimmer and a fight with the TV's tuner. | ✓ Composite and RGB outputs, sharp on Tandy's CM-8 monitor if you bought one. | ✓ A sharp digital picture at 60 frames a second on an ordinary TV, with the NTSC artifact colours recreated. |
+| **Picture** | ✕ RF out to channel 3 or 4: fuzz, shimmer and a fight with the TV's tuner. | ✓ Composite and RGB outputs, sharp on Tandy's CM-8 monitor if you bought one. | ✓ A sharp digital picture at 60 frames a second on an ordinary TV, with the NTSC artifact colors recreated. |
 | **Sound** | ✕ A 6-bit DAC squeezed through the same RF signal, so the picture's buzz comes along for free. | ✕ The same 6-bit DAC, and still no sound chip. | ✓ Clean digital sound over the same one cable, plus the Games Master Cartridge's three-voice sound chip built in. |
 | **Speed** | ✕ `POKE 65497,0` doubles the speed and scrambles the screen. | ✓ 1.79 MHz with `POKE 65497,0`, and the picture holds. | ✓ Both high-speed POKEs work on the CoCo 2, up to twice as fast with a clean screen, and the CoCo 3 runs at 1.79 MHz. |
 | **Storage** | ✕ Cassette tapes at 1,500 baud. Floppy drives cost extra, and so did the controller. | ✕ The same cassettes, or the same floppy drive and controller, bought separately. | ✓ A microSD card full of disks, programs and cartridges. Disks are writable, and NitrOS-9 boots. |
