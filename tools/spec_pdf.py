@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build spec/coco-zero-spec.pdf, the whole standard on one page.
 
-It opens with the definition paragraph from spec/definition.md, and carries the
-version number from docs/versioning.md.
+It opens with the conformance line, and carries the version number from
+docs/versioning.md.
 
 The spec/*.md pages stay the source of truth. This only ever reads them.
 
@@ -205,7 +205,7 @@ def render(page, blocks, left=LEFT, right=RIGHT):
 
 def spec_date():
     try:
-        out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", "spec"], cwd=ROOT,
+        out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", "spec/*.md"], cwd=ROOT,
                              capture_output=True, text=True, check=True).stdout.strip()
         dirty = subprocess.run(["git", "status", "--porcelain", "--", "spec/*.md"], cwd=ROOT,
                                capture_output=True, text=True, check=True).stdout.strip()
@@ -254,9 +254,7 @@ def main():
     label = f"The standard, version {spec_version()}"
     page.text(RIGHT - width(label, 11), page.y, label, 11, grey=0.4)
     page.down(8)
-    definition = next(p for kind, p in parse(ROOT / "spec" / "definition.md") if kind == "para")
-    render(page, [("para", definition),
-                  ("para", "A CoCo Zero is anything that meets every requirement on this page.")])
+    render(page, [("para", "A CoCo Zero is anything that meets every requirement on this page.")])
     for name in PAGES:
         render_page(page, parse(ROOT / "spec" / name))
 

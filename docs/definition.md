@@ -1,6 +1,8 @@
 # What is a CoCo Zero
 
-Status: **accepted** (CZ-3)
+This page describes a CoCo Zero. It is not part of the standard: the
+requirements are in the one-page spec,
+[`spec/coco-zero-spec.pdf`](../spec/coco-zero-spec.pdf).
 
 A CoCo Zero is a Tandy Color Computer emulator on a board the size of a
 Raspberry Pi Zero. Switch it on and BASIC is there, with no operating system
@@ -12,14 +14,14 @@ and every one has the same outline and mounting holes.
 ## What makes one
 
 - **The size.** A board of the Raspberry Pi Zero outline, with the same four
-  mounting holes. See [Form factor](form-factor.md).
+  mounting holes. See [Form factor](../spec/form-factor.md).
 - **Zero operating system.** One layer of software between you and the
-  machine. See [Zero operating system](zero-os.md).
+  machine. See [Zero operating system](../spec/zero-os.md).
 - **A CoCo.** At least a 128K CoCo 3, and a 64K CoCo 1 or 2 if it offers one.
-  See [Machines](machines.md).
+  See [Machines](../spec/machines.md).
 - **Modern connections.** Mini HDMI, two USB-C ports and microSD, with a
   640 x 480 picture at 60 Hz and its sound on one cable. See
-  [Features](features.md).
+  [Features](../spec/features.md).
 - **Real time.** Double speed with no dropped frames and no gaps in the
   sound.
 - **Quiet.** No fan.

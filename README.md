@@ -13,7 +13,7 @@ in between. It is at least a 128K CoCo 3. It plugs into an ordinary TV with a
 mini HDMI cable, takes a USB keyboard and gamepad, and keeps its disks and
 programs on a microSD card. Anyone can build one, on any board of that size,
 and every one has the same outline and mounting holes.
-([What is a CoCo Zero](spec/definition.md))
+([What is a CoCo Zero](docs/definition.md))
 
 ## The vision
 
@@ -51,7 +51,7 @@ keeping the essence of what it means to operate a CoCo.
 
 <p align="center">
   <img src="docs/images/zero-os.svg" width="640"
-       alt="On the left, a CoCo emulator on a modern computer sits on a dozen layers: hardware, firmware, bootloader, kernel, drivers, services, login, display server, desktop, libraries, background apps, the emulator app. On the right, a CoCo Zero is just hardware and XRoar, the CoCo emulator and configuration, with zero extra">
+       alt="On the left, a CoCo emulator on a modern computer sits on a dozen layers: hardware, firmware, bootloader, kernel, drivers, services, login, display server, desktop, libraries, background apps, the emulator app. On the right, a CoCo Zero is just hardware and a CoCo emulator (XRoar) and its configuration, running bare metal with zero extra">
 </p>
 
 **A CoCo, and more.** A CoCo Zero is at least a 128K CoCo 3, and ideally
@@ -88,13 +88,15 @@ The rules behind these choices are set out in
 
 ## The standard
 
-A CoCo Zero is anything that meets every requirement on these pages. There
-are no tiers and no certification. This is version 2.2; how it changes is
-set out in [Versions and changes](docs/versioning.md).
+The standard is one page:
+[`spec/coco-zero-spec.pdf`](spec/coco-zero-spec.pdf). A CoCo Zero is anything
+that meets every requirement on it. There are no tiers and no certification.
+The rest of this repository explains the standard and the vision behind it,
+but is not part of it. This is version 1.0; how it changes is set out in
+[Versions and changes](docs/versioning.md).
 
 | Page | What it sets |
 |---|---|
-| [Definition](spec/definition.md) | What a CoCo Zero is, and what it is not, in one page |
 | [Form factor](spec/form-factor.md) | The Raspberry Pi Zero outline and mounting holes |
 | [Machines](spec/machines.md) | A CoCo 3 with at least 128K; a CoCo 1 or 2, if offered, with at least 64K |
 | [Zero operating system](spec/zero-os.md) | No operating system; one configuration screen for emulator options, disk images, system information and loading programs and cartridges; nothing else |

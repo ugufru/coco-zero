@@ -27,7 +27,7 @@ The [reference firmware](https://github.com/ugufru/xroar-waveshare-rp2350-pizero
 also has these. Other CoCo Zeros may do more or less.
 
 - **Three machines in one firmware**, a CoCo 2, a CoCo 3 and the CoCo Zero (a
-  CoCo 2 with extras), and a game can switch to the one it needs.
+  CoCo 3 with extras), and a game can switch to the one it needs.
 - **The CoCo 2's high-speed POKEs** run up to twice as fast with a clean screen.
 - **True lower case** and a choice of fonts on the CoCo 2.
 - **Sound cartridges built in:** the Games Master Cartridge's three-voice
