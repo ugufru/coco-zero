@@ -15,6 +15,8 @@ These follow from the spec.
 - **A USB hub**, so the keyboard and joystick plug in together.
 - **USB audio:** headphones or speakers on a class-compliant USB audio device,
   in place of the video cable's sound.
+- **USB MIDI:** a class-compliant USB MIDI device as the CoCo's MIDI
+  interface.
 - **A microSD card** in place of tapes and floppy drives.
 - **Assign disk images** from the microSD to drives using a configuration
   screen.

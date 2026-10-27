@@ -29,6 +29,9 @@ system underneath. See [Zero operating system](../spec/zero-os.md).
 **Class-compliant USB audio.** A USB sound device that follows the USB Audio
 Class standard, so it works without a driver of its own.
 
+**Class-compliant USB MIDI.** A USB MIDI device that follows the USB MIDI
+class standard, so it works without a driver of its own.
+
 **Color BASIC, Extended, Disk and Super Extended Color BASIC.** The CoCo's
 BASIC in its four ROMs. Color BASIC is the base; Extended adds graphics and
 sound commands; Disk adds the disk commands, from the disk controller

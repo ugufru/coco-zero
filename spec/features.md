@@ -1,6 +1,6 @@
 # CoCo Zero features
 
-Status: **accepted** (CZ-16, CZ-21, CZ-4, CZ-29)
+Status: **accepted** (CZ-16, CZ-21, CZ-4, CZ-29, CZ-40)
 
 ## Connectors
 
@@ -18,6 +18,7 @@ Status: **accepted** (CZ-16, CZ-21, CZ-4, CZ-29)
   a single hub chip).
 - A class-compliant USB audio device can play the sound in place of the video
   cable.
+- A class-compliant USB MIDI device works as the CoCo's MIDI interface.
 
 ## Video and sound
 
