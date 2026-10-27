@@ -1,3 +1,2 @@
-{"rank": 1, "id": "CZ-32", "why": "Gate: decides what counts as a requirement at all, which frames every other finding.", "added": "2026-10-26"}
-{"rank": 2, "id": "CZ-33", "why": "The core promises (real time, straight to BASIC) are the ones users test first; the reference fails them read literally.", "added": "2026-10-26"}
-{"rank": 3, "id": "CZ-34", "why": "The reference fails the USB lines read literally; a named baseline fixes it cheaply.", "added": "2026-10-26"}
+{"rank": 1, "id": "CZ-33", "why": "The core promises (real time, straight to BASIC) are the ones users test first; the reference fails them read literally.", "added": "2026-10-26"}
+{"rank": 2, "id": "CZ-34", "why": "The reference fails the USB lines read literally; a named baseline fixes it cheaply.", "added": "2026-10-26"}

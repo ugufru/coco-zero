@@ -9,11 +9,13 @@ CoCo 3 too, and this standard now says what it means.
 ## Using it
 
 - **If it meets the standard, it is a CoCo Zero.** Anything that meets every
-  requirement in [`spec/`](../spec/) may be called a CoCo Zero, in its name,
-  on its box, or in a post about it. No permission, fee or review is needed.
+  requirement in the one-page spec,
+  [`spec/coco-zero-spec.pdf`](../spec/coco-zero-spec.pdf), may be called a
+  CoCo Zero, in its name, on its box, or in a post about it. No permission,
+  fee or review is needed. The standard is the one published at
+  [github.com/ugufru/coco-zero](https://github.com/ugufru/coco-zero).
 - **If it does not, say what it is instead.** There is no "CoCo Zero
-  compatible" or other half-way name. A build that meets most of the standard
-  can say which version it follows and what it leaves out.
+  compatible" or other half-way name.
 - **There is no logo.** The standard has no logo, badge or branding. The
   name is all there is.
 - **Add it to the list.** Known CoCo Zeros are listed in

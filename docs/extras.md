@@ -10,15 +10,15 @@ These follow from the spec.
 
 - **One cable to a TV.** Picture and sound together over a mini HDMI cable,
   640 x 480 at 60 Hz.
-- **A USB keyboard.** Any standard keyboard on the USB host port.
+- **A USB keyboard.** A standard USB-C keyboard on the USB host port.
 - **A USB joystick or gamepad** in place of the CoCo's analog joysticks.
 - **A USB hub**, so the keyboard and joystick plug in together.
 - **USB audio:** headphones or speakers on a class-compliant USB audio device,
   in place of the video cable's sound.
 - **A microSD card** in place of tapes and floppy drives.
-- **Load without typing.** Mount disks and load programs and cartridges from
-  the configuration screen.
-- **Phone charger power** over USB-C.
+- **Assign disk images** from the microSD to drives using a configuration
+  screen.
+- **USB-C power**, from whatever you plug in.
 - **The size of a Raspberry Pi Zero**, in place of a keyboard-sized case.
 
 ## In the reference CoCo Zero
@@ -26,6 +26,8 @@ These follow from the spec.
 The [reference firmware](https://github.com/ugufru/xroar-waveshare-rp2350-pizero)
 also has these. Other CoCo Zeros may do more or less.
 
+- **Programs and cartridges without typing**, loaded straight from the
+  configuration screen.
 - **Three machines in one firmware**, a CoCo 2, a CoCo 3 and the CoCo Zero (a
   CoCo 3 with extras), and a game can switch to the one it needs.
 - **The CoCo 2's high-speed POKEs** run up to twice as fast with a clean screen.
