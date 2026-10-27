@@ -1,6 +1,6 @@
 # Versions and changes
 
-Current version: **2.1**
+Current version: **2.2**
 
 ## Numbering
 

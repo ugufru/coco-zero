@@ -40,7 +40,7 @@ a board of that size: 65 x 30 mm, with the same four mounting holes.
 
 <p align="center">
   <img src="docs/images/form-factor.svg" width="640"
-       alt="Blueprint of the Pi Zero board outline: 65 x 30 mm with 3 mm corner radius, and four 2.75 mm mounting holes for M2.5 screws, 3.5 mm in from each edge and 58 by 23 mm apart">
+       alt="Blueprint of the Pi Zero board outline: 65 x 30 mm with 3 mm corner radius, and four 3 mm mounting holes for M2.5 screws, 3.5 mm in from each edge and 58 by 23 mm apart">
 </p>
 
 **Zero operating system.** There is nothing between you and the machine but
@@ -89,7 +89,7 @@ The rules behind these choices are set out in
 ## The standard
 
 A CoCo Zero is anything that meets every requirement on these pages. There
-are no tiers and no certification. This is version 2.1; how it changes is
+are no tiers and no certification. This is version 2.2; how it changes is
 set out in [Versions and changes](docs/versioning.md).
 
 | Page | What it sets |

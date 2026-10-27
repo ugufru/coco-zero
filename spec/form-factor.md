@@ -1,6 +1,6 @@
 # CoCo Zero form factor
 
-Status: **accepted** (CZ-6)
+Status: **accepted** (CZ-6, CZ-31)
 
 A CoCo Zero is built on a board of the Raspberry Pi Zero size.
 
@@ -24,5 +24,5 @@ along the 65 mm edge and Y along the 30 mm edge.
 |---|---|
 | Board outline | 65 x 30 |
 | Corner radius | 3.0 |
-| Mounting holes | 4, for M2.5, drilled 2.75 +/- 0.05 |
+| Mounting holes | 4, for M2.5, 2.75 to 3.2 across, 3.0 preferred |
 | Hole centers | (3.5, 3.5), (61.5, 3.5), (3.5, 26.5), (61.5, 26.5) |

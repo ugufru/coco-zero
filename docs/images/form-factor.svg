@@ -20,12 +20,12 @@
     <!-- board outline, 10 px per mm, origin at (120, 110) -->
     <rect x="120" y="110" width="650" height="300" rx="30" stroke-width="2.5" fill="#ffffff" fill-opacity="0.04"/>
 
-    <!-- mounting holes, 2.75 mm -->
+    <!-- mounting holes, 3.0 mm -->
     <g stroke-width="2">
-      <circle cx="155" cy="145" r="13.75"/>
-      <circle cx="735" cy="145" r="13.75"/>
-      <circle cx="155" cy="375" r="13.75"/>
-      <circle cx="735" cy="375" r="13.75"/>
+      <circle cx="155" cy="145" r="15"/>
+      <circle cx="735" cy="145" r="15"/>
+      <circle cx="155" cy="375" r="15"/>
+      <circle cx="735" cy="375" r="15"/>
     </g>
     <g stroke-width="1" stroke-dasharray="8 3 2 3" stroke-opacity="0.7">
       <path d="M133 145h44M155 123v44"/>
@@ -67,7 +67,7 @@
     <text transform="translate(837 127.5) rotate(90)">3.5</text>
     <text transform="translate(837 260) rotate(90)">23</text>
     <text x="172" y="448" text-anchor="start">R3</text>
-    <text x="646" y="298" text-anchor="end">4 x &#216;2.75, for M2.5</text>
+    <text x="646" y="298" text-anchor="end">4 x &#216;3.0, for M2.5</text>
     <text x="445" y="266" font-size="22" letter-spacing="4" fill-opacity="0.4">PI ZERO SIZE</text>
   </g>
 
